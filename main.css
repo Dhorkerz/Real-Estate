@@ -1,0 +1,47 @@
+/*Main.css*/
+
+body {
+	padding: 0;
+	margin: 0;
+	background: #f2f6e9;
+}
+
+/*--- navigation bar ---*/
+
+.navbar {
+	background: #6ab446;
+}
+
+.nav-link:hover{
+	border:hidden;
+	color: #000;
+}
+/*--- footer ---*/
+
+.page-footer {
+	background-color: #6ab446;
+	color: white;
+	height: auto;padding-top: 20px;
+}
+
+.footer-copyright {
+	color: white;
+	padding: 0;
+}
+
+.nav-link{
+	color: #fff;
+	cursor: pointer;
+	margin-right: 1em !important;
+}
+a.active{
+	color: #000;
+	margin-right: 1em !important;
+	cursor: pointer;
+	text-decoration: none;
+	position: relative;
+	bottom: -8px;
+}
+.navbar-collapse {
+	justify-content: flex-end;
+}
